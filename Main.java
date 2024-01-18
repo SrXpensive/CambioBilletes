@@ -31,15 +31,15 @@ public class Main {
         }
         if (dinero >= 50){
             b50 = dinero/50;
-            dinero -= (100*b50);
+            dinero -= (50*b50);
         }
         if (dinero >= 20){
             b20 = dinero/20;
-            dinero -= (100*b20);
+            dinero -= (20*b20);
         }
         if (dinero >= 10){
             b10 = dinero/10;
-            dinero -= (100*b10);
+            dinero -= (10*b10);
         }
         if (dinero >= 5){
             b5 = dinero/5;
